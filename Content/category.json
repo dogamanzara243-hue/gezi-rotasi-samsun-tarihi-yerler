@@ -3,29 +3,54 @@
     "description": "Samsun şehrindeki en öne çıkan tarihi yerler ve popüler noktalar.",
     "category": [
         {
+            "id": "tarihi-yerler-1",
             "title": "Önemli Mekan 1 - Samsun",
-            "desc": "Samsun şehrinde mutlaka görülmesi gereken gözde konum.",
-            "link": "#"
+            "category_badge": "Popüler Durak",
+            "badge_icon": "fa-star",
+            "image": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=800&q=80",
+            "description": "Samsun şehrinin en çok ziyaret edilen ve beğenilen özel lokasyonlarından biri.",
+            "target_url": "#",
+            "button_text": "Detayları Gör"
         },
         {
+            "id": "tarihi-yerler-2",
             "title": "Önemli Mekan 2 - Samsun",
-            "desc": "Tarihi, kültürel ve sosyal dokusuyla öne çıkan popüler mekan.",
-            "link": "#"
+            "category_badge": "Kültür & Yaşam",
+            "badge_icon": "fa-landmark",
+            "image": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80",
+            "description": "Bölgenin dokusunu ve sosyal hayatını yansıtan tarihi ve modern buluşma noktası.",
+            "target_url": "#",
+            "button_text": "İncele"
         },
         {
+            "id": "tarihi-yerler-3",
             "title": "Önemli Mekan 3 - Samsun",
-            "desc": "Ziyaretçilerin rotasından eksik etmediği atmosferik nokta.",
-            "link": "#"
+            "category_badge": "Gezgin Favorisi",
+            "badge_icon": "fa-compass",
+            "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80",
+            "description": "Ziyaretçilerin rotalarından asla eksik etmediği atmosferik ve eşsiz bir nokta.",
+            "target_url": "#",
+            "button_text": "Keşfet"
         },
         {
+            "id": "tarihi-yerler-4",
             "title": "Önemli Mekan 4 - Samsun",
-            "desc": "Şehrin mimarisini ve ruhunu yansıtan özel bölge.",
-            "link": "#"
+            "category_badge": "Özel Mimari",
+            "badge_icon": "fa-city",
+            "image": "https://images.unsplash.com/photo-1527838832700-548952f12098?auto=format&fit=crop&w=800&q=80",
+            "description": "Mimari yapısı ve çevresindeki estetik detaylarıyla göz kamaştıran bölge.",
+            "target_url": "#",
+            "button_text": "Göz At"
         },
         {
+            "id": "tarihi-yerler-5",
             "title": "Önemli Mekan 5 - Samsun",
-            "desc": "Samsun gezisinde keşfedilmesi gereken 5. simge nokta.",
-            "link": "#"
+            "category_badge": "Simge Nokta",
+            "badge_icon": "fa-location-dot",
+            "image": "https://images.unsplash.com/photo-1590073844006-33379778ae09?auto=format&fit=crop&w=800&q=80",
+            "description": "Samsun gezisinde mutlaka görülmesi gereken simge mekanlardan biri.",
+            "target_url": "#",
+            "button_text": "Ziyaret Et"
         }
     ]
 }
