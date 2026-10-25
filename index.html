@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased">
-    <!-- Üst Menü ve Doğru Yönlendirme Butonu -->
+    <!-- Üst Menü ve Yönlendirme -->
     <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-xs">
         <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
             <a href="../" class="font-bold text-slate-900 flex items-center gap-2 hover:text-amber-600 transition-colors text-sm bg-slate-100 hover:bg-slate-200 px-3.5 py-2 rounded-xl">
@@ -24,7 +24,7 @@
             <p id="page-desc" class="text-slate-600 mt-2 text-base">Detaylı mekan listesi yükleniyor.</p>
         </div>
 
-        <!-- REKLAM / SPONSOR ALANI -->
+        <!-- SPONSORLU REKLAM ALANI -->
         <div class="bg-gradient-to-r from-amber-500/10 via-orange-500/5 to-transparent border border-amber-200/60 rounded-2xl p-5 mb-8 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xs">
             <div class="flex items-center gap-3">
                 <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-700 flex items-center justify-center font-bold text-lg">
@@ -38,11 +38,11 @@
             <a href="#" class="text-xs font-semibold bg-white border border-slate-300 text-slate-700 px-4 py-2 rounded-xl hover:bg-slate-50 transition-all shadow-2xs">Reklam Ver</a>
         </div>
 
-        <!-- Kartların Listeleneceği Alan -->
+        <!-- Zengin Kartların Listeleneceği Alan -->
         <div id="items-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
     </main>
 
-    <!-- Content/category.json dosyasını okuyan script -->
+    <!-- Content/category.json dosyasını okuyup görsel ve butonları işleyen script -->
     <script>
         document.addEventListener("DOMContentLoaded", async () => {
             try {
@@ -57,15 +57,24 @@
                 const grid = document.getElementById("items-grid");
                 if (grid && data.category) {
                     grid.innerHTML = data.category.map(item => `
-                        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-xs hover:shadow-md transition-all flex flex-col justify-between">
+                        <div class="bg-white rounded-2xl border border-slate-200 shadow-xs hover:shadow-md transition-all overflow-hidden flex flex-col justify-between">
                             <div>
-                                <span class="text-xs font-bold text-amber-700 bg-amber-50 px-2.5 py-1 rounded-md uppercase tracking-wider">Popüler Nokta</span>
-                                <h3 class="text-xl font-bold text-slate-900 mt-3 mb-2">${item.title}</h3>
-                                <p class="text-slate-600 text-sm leading-relaxed">${item.desc}</p>
+                                ${item.image ? `<div class="h-48 overflow-hidden relative"><img src="${item.image}" alt="${item.title}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"></div>` : ''}
+                                <div class="p-6">
+                                    <div class="flex items-center gap-2 mb-3">
+                                        <span class="text-xs font-bold text-amber-700 bg-amber-50 px-2.5 py-1 rounded-md uppercase tracking-wider flex items-center gap-1.5 border border-amber-200/50">
+                                            <i class="fa-solid ${item.badge_icon || 'fa-location-dot'}"></i> ${item.category_badge || 'Popüler Nokta'}
+                                        </span>
+                                    </div>
+                                    <h3 class="text-xl font-bold text-slate-900 mb-2">${item.title}</h3>
+                                    <p class="text-slate-600 text-sm leading-relaxed">${item.description || item.desc || ''}</p>
+                                </div>
                             </div>
-                            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
-                                <span class="flex items-center text-amber-600 font-semibold"><i class="fa-solid fa-location-dot mr-1"></i> Keşfet</span>
-                                <a href="${item.link || '#'}" class="font-semibold bg-slate-900 text-white px-3 py-1.5 rounded-lg hover:bg-slate-800 transition-colors">İncele</a>
+                            <div class="p-6 pt-0 mt-4 flex items-center justify-between">
+                                <span class="text-xs text-slate-400 font-medium">Rehber Detayı</span>
+                                <a href="${item.target_url || item.link || '#'}" class="font-semibold bg-slate-900 text-white px-4 py-2 rounded-xl hover:bg-amber-600 transition-colors text-xs flex items-center gap-2">
+                                    ${item.button_text || 'İncele'} <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                                </a>
                             </div>
                         </div>
                     `).join("");
