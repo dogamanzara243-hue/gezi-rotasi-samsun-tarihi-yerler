@@ -1,0 +1,31 @@
+{
+    "title": "Samsun Tarihi Yerler Rehberi",
+    "description": "Samsun şehrindeki en öne çıkan tarihi yerler ve popüler noktalar.",
+    "category": [
+        {
+            "title": "Önemli Mekan 1 - Samsun",
+            "desc": "Samsun şehrinde mutlaka görülmesi gereken gözde konum.",
+            "link": "#"
+        },
+        {
+            "title": "Önemli Mekan 2 - Samsun",
+            "desc": "Tarihi, kültürel ve sosyal dokusuyla öne çıkan popüler mekan.",
+            "link": "#"
+        },
+        {
+            "title": "Önemli Mekan 3 - Samsun",
+            "desc": "Ziyaretçilerin rotasından eksik etmediği atmosferik nokta.",
+            "link": "#"
+        },
+        {
+            "title": "Önemli Mekan 4 - Samsun",
+            "desc": "Şehrin mimarisini ve ruhunu yansıtan özel bölge.",
+            "link": "#"
+        },
+        {
+            "title": "Önemli Mekan 5 - Samsun",
+            "desc": "Samsun gezisinde keşfedilmesi gereken 5. simge nokta.",
+            "link": "#"
+        }
+    ]
+}
