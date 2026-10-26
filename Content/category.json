@@ -1,56 +1,57 @@
 {
     "title": "Samsun Tarihi Yerler Rehberi",
-    "description": "Samsun şehrindeki en öne çıkan tarihi yerler ve popüler noktalar.",
+    "description": "Samsun şehrindeki en seçkin tarihi yerler ve popüler duraklar.",
+    "badge": "Tarihi Yerler",
     "category": [
         {
-            "id": "tarihi-yerler-1",
-            "title": "Önemli Mekan 1 - Samsun",
-            "category_badge": "Popüler Durak",
-            "badge_icon": "fa-star",
-            "image": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=800&q=80",
-            "description": "Samsun şehrinin en çok ziyaret edilen ve beğenilen özel lokasyonlarından biri.",
-            "target_url": "#",
-            "button_text": "Detayları Gör"
-        },
-        {
-            "id": "tarihi-yerler-2",
-            "title": "Önemli Mekan 2 - Samsun",
-            "category_badge": "Kültür & Yaşam",
+            "id": "samsun-tarihi-yerler-1",
+            "title": "Samsun Antik Kent Surları ve Kalıntılar",
+            "category_badge": "Arkeolojik Miras",
             "badge_icon": "fa-landmark",
-            "image": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80",
-            "description": "Bölgenin dokusunu ve sosyal hayatını yansıtan tarihi ve modern buluşma noktası.",
-            "target_url": "#",
-            "button_text": "İncele"
-        },
-        {
-            "id": "tarihi-yerler-3",
-            "title": "Önemli Mekan 3 - Samsun",
-            "category_badge": "Gezgin Favorisi",
-            "badge_icon": "fa-compass",
-            "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80",
-            "description": "Ziyaretçilerin rotalarından asla eksik etmediği atmosferik ve eşsiz bir nokta.",
-            "target_url": "#",
+            "image": "https://images.unsplash.com/photo-1599811568285-b9f4a743a6d9?auto=format&fit=crop&w=800&q=80&fm=webp",
+            "description": "Samsun şehrinin eşsiz dokusunu yansıtan asırlık medeniyetlerin izini taşıyan, taş işçiliğiyle büyüleyen tarihi sur kalıntıları.",
+            "target_url": "https://dogamanzara243-hue.github.io/gezi-rotasi-samsun-tarihi-yerler/",
             "button_text": "Keşfet"
         },
         {
-            "id": "tarihi-yerler-4",
-            "title": "Önemli Mekan 4 - Samsun",
-            "category_badge": "Özel Mimari",
-            "badge_icon": "fa-city",
-            "image": "https://images.unsplash.com/photo-1527838832700-548952f12098?auto=format&fit=crop&w=800&q=80",
-            "description": "Mimari yapısı ve çevresindeki estetik detaylarıyla göz kamaştıran bölge.",
-            "target_url": "#",
-            "button_text": "Göz At"
+            "id": "samsun-tarihi-yerler-2",
+            "title": "Samsun Tarihi Kent Meydanı ve Anıt",
+            "category_badge": "Kültürel Simge",
+            "badge_icon": "fa-monument",
+            "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80&fm=webp",
+            "description": "Samsun şehrinin eşsiz dokusunu yansıtan yüzyıllar boyunca ticaretin ve sosyal yaşamın kalbinin attığı görkemli meydan.",
+            "target_url": "https://dogamanzara243-hue.github.io/gezi-rotasi-samsun-tarihi-yerler/",
+            "button_text": "Keşfet"
         },
         {
-            "id": "tarihi-yerler-5",
-            "title": "Önemli Mekan 5 - Samsun",
-            "category_badge": "Simge Nokta",
-            "badge_icon": "fa-location-dot",
-            "image": "https://images.unsplash.com/photo-1590073844006-33379778ae09?auto=format&fit=crop&w=800&q=80",
-            "description": "Samsun gezisinde mutlaka görülmesi gereken simge mekanlardan biri.",
-            "target_url": "#",
-            "button_text": "Ziyaret Et"
+            "id": "samsun-tarihi-yerler-3",
+            "title": "Samsun Eski Çarşı ve Zanaat Sokağı",
+            "category_badge": "Otantik Doku",
+            "badge_icon": "fa-store",
+            "image": "https://images.unsplash.com/photo-1545459720-aac8509eb02c?auto=format&fit=crop&w=800&q=80&fm=webp",
+            "description": "Samsun şehrinin eşsiz dokusunu yansıtan geleneksel el sanatları ve baharat kokulu sokaklarıyla nostaljik alışveriş noktası.",
+            "target_url": "https://dogamanzara243-hue.github.io/gezi-rotasi-samsun-tarihi-yerler/",
+            "button_text": "Keşfet"
+        },
+        {
+            "id": "samsun-tarihi-yerler-4",
+            "title": "Samsun Asırlık İbadethane ve Külliye",
+            "category_badge": "Dini ve Mimari Miras",
+            "badge_icon": "fa-mosque",
+            "image": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=800&q=80&fm=webp",
+            "description": "Samsun şehrinin eşsiz dokusunu yansıtan i̇nce işçilikli kubbeleri ve akustik yapısıyla mimarlık tarihinin şaheseri.",
+            "target_url": "https://dogamanzara243-hue.github.io/gezi-rotasi-samsun-tarihi-yerler/",
+            "button_text": "Keşfet"
+        },
+        {
+            "id": "samsun-tarihi-yerler-5",
+            "title": "Samsun Tarihi Köprü ve Su Kemeri",
+            "category_badge": "Mühendislik Harikası",
+            "badge_icon": "fa-bridge",
+            "image": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=800&q=80&fm=webp",
+            "description": "Samsun şehrinin eşsiz dokusunu yansıtan geçmişten günümüze ayakta kalmayı başarmış kemerli taş yapı ve su yolları.",
+            "target_url": "https://dogamanzara243-hue.github.io/gezi-rotasi-samsun-tarihi-yerler/",
+            "button_text": "Keşfet"
         }
     ]
 }
